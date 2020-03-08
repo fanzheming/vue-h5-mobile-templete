@@ -70,6 +70,10 @@ router.beforeEach(function(to, from, next) {
 
 // 全局后置路由守卫
 router.afterEach(function(to) {
+  window.scroll({
+    top: 0,
+    left: 0
+  })
   // 关闭loading
   store.commit('TOGGLE_IS_LOADING', false)
 })
