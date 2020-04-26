@@ -1,4 +1,4 @@
-# 手机端H5模板
+# 移动端H5模板
 
 > 基于vuecli2 包含二次封装axios,vuex,vue-cookie,amfe-flexible,fastClick,normalize.css,vant,mockjs,less
 
